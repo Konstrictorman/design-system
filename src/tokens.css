@@ -1,0 +1,142 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-blue-100: #d4d4f9;
+  --color-blue-200: #a9a9f2;
+  --color-blue-300: #7e7eec;
+  --color-blue-400: #5353e6;
+  --color-blue-500: #2828df;
+  --color-blue-600: #2626b9;
+  --color-blue-700: #242492;
+  --color-blue-800: #22226b;
+  --color-blue-900: #202045;
+  --color-blue-950: #1f1f31;
+  --color-foundations-black: #000000;
+  --color-foundations-white: #ffffff;
+  --color-green-100: #def7ec;
+  --color-green-200: #bdefd8;
+  --color-green-300: #9de7c5;
+  --color-green-400: #7cdfb1;
+  --color-green-500: #5bd79e;
+  --color-green-600: #4fb284;
+  --color-green-700: #438d6b;
+  --color-green-800: #366851;
+  --color-green-900: #2a4338;
+  --color-green-950: #24302b;
+  --color-grey-100: #f1f1f1;
+  --color-grey-200: #e3e3e3;
+  --color-grey-300: #d4d4d4;
+  --color-grey-400: #c6c6c6;
+  --color-grey-500: #b8b8b8;
+  --color-grey-600: #999999;
+  --color-grey-700: #7a7a7a;
+  --color-grey-800: #5c5c5c;
+  --color-grey-900: #3d3d3d;
+  --color-grey-950: #2d2d2d;
+  --color-orange-100: #ffe8da;
+  --color-orange-200: #ffd0b5;
+  --color-orange-300: #ffb991;
+  --color-orange-400: #ffa16c;
+  --color-orange-500: #ff8a47;
+  --color-orange-600: #d2743f;
+  --color-orange-700: #a55f37;
+  --color-orange-800: #78492e;
+  --color-orange-900: #4b3426;
+  --color-orange-950: #342922;
+  --color-red-100: #f9dede;
+  --color-red-200: #f2bdbd;
+  --color-red-300: #ec9d9d;
+  --color-red-400: #e57c7c;
+  --color-red-500: #df5b5b;
+  --color-red-600: #b84f4f;
+  --color-red-700: #753a3a;
+  --color-red-800: #6b3636;
+  --color-red-900: #452a2a;
+  --color-red-950: #312424;
+  --color-slate-100: #e7eaed;
+  --color-slate-200: #cfd5dc;
+  --color-slate-300: #b6bfca;
+  --color-slate-400: #9eaab9;
+  --color-slate-500: #8695a7;
+  --color-slate-600: #717d8c;
+  --color-slate-700: #5c6570;
+  --color-slate-800: #484e55;
+  --color-slate-900: #333639;
+  --color-slate-950: #282a2c;
+  --scale-0: 0px;
+  --scale-100: 4px;
+  --scale-1000: 40px;
+  --scale-1100: 44px;
+  --scale-1200: 48px;
+  --scale-1300: 62px;
+  --scale-200: 8px;
+  --scale-25: 1px;
+  --scale-300: 12px;
+  --scale-400: 16px;
+  --scale-50: 2px;
+  --scale-500: 20px;
+  --scale-600: 24px;
+  --scale-700: 28px;
+  --scale-800: 32px;
+  --scale-900: 36px;
+  --text-color-brand: #2828df;
+  --text-color-default: #2d2d2d;
+  --text-color-error: #df5b5b;
+  --text-color-inverse: #ffffff;
+  --text-color-subtle: #5c5c5c;
+  --text-color-success: #5bd79e;
+  --text-font-family-inter: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --text-font-family-montserrat: 'Montserrat', sans-serif;
+  --text-font-size-2xl: 32px;
+  --text-font-size-3xl: 36px;
+  --text-font-size-lg: 24px;
+  --text-font-size-md: 20px;
+  --text-font-size-sm: 16px;
+  --text-font-size-xl: 28px;
+  --text-font-size-xs: 12px;
+  --text-font-weight-bold: 700;
+  --text-font-weight-light: 300;
+  --text-font-weight-medium: 500;
+  --text-font-weight-regular: 400;
+  --text-font-weight-semi-bold: 600;
+  --text-letter-spacing-normal: 0em;
+  --text-letter-spacing-tight: -0.02em;
+  --text-letter-spacing-wide: 0.05em;
+  --text-line-height-2xl: 40px;
+  --text-line-height-3xl: 44px;
+  --text-line-height-lg: 20px;
+  --text-line-height-md: 20px;
+  --text-line-height-sm: 16px;
+  --text-line-height-xl: 24px;
+  --text-line-height-xs: 16px;
+}
+
+[data-theme="dark"] {
+  --text-color-brand: #5353e6;
+  --text-color-default: #f1f1f1;
+  --text-color-error: #e57c7c;
+  --text-color-inverse: #2d2d2d;
+  --text-color-subtle: #b8b8b8;
+  --text-color-success: #7cdfb1;
+}
+
+@media only screen and (min-width: 1025px) {
+  :root {
+    --text-font-size-2xl: 44px;
+    --text-font-size-3xl: 48px;
+    --text-font-size-lg: 32px;
+    --text-font-size-md: 24px;
+    --text-font-size-sm: 20px;
+    --text-font-size-xl: 40px;
+    --text-font-size-xs: 16px;
+    --text-line-height-2xl: 40px;
+    --text-line-height-3xl: 48px;
+    --text-line-height-lg: 24px;
+    --text-line-height-md: 20px;
+    --text-line-height-sm: 16px;
+    --text-line-height-xl: 32px;
+    --text-line-height-xs: 16px;
+  }
+}
