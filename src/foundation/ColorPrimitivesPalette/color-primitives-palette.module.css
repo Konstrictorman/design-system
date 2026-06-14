@@ -1,0 +1,61 @@
+.palette {
+  display: flex;
+  flex-direction: column;
+  gap: var(--scale-600);
+  width: min(100%, 72rem);
+  padding: var(--scale-400);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--scale-200);
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  gap: var(--scale-300);
+}
+
+.familyName {
+  margin: 0;
+  font-family: var(--text-font-family-inter);
+  font-size: var(--text-font-size-lg);
+  font-weight: var(--text-font-weight-semi-bold);
+  line-height: var(--text-line-height-lg);
+  color: var(--text-color-default);
+}
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+  gap: var(--scale-300);
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: var(--scale-100);
+}
+
+.sample {
+  height: var(--scale-1000);
+  border: 1px solid rgb(0 0 0 / 8%);
+  border-radius: var(--scale-100);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--scale-25);
+  font-family: var(--text-font-family-inter);
+  font-size: var(--text-font-size-xs);
+  line-height: var(--text-line-height-xs);
+  color: var(--text-color-subtle);
+}
+
+.tokenPath {
+  color: var(--text-color-default);
+  font-weight: var(--text-font-weight-medium);
+}

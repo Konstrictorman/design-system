@@ -43,9 +43,7 @@ export const Default: Story = {
 export const FontFamily: Story = {
   args: {
     fontFamily: "inter",
-    size: "md",
-    color: "default",
-    weight: "regular",
+    children: "Inter font family",
   },
   render: (args) => (
     <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
@@ -71,6 +69,7 @@ export const WeightScale: Story = {
   args: {
     size: "md",
     color: "default",
+    children: "Weight scale using responsive tokens",
   },
   render: (args) => (
     <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
@@ -87,6 +86,7 @@ export const SizeRamp: Story = {
   args: {
     weight: "regular",
     color: "default",
+    children: "Size ramp using responsive tokens",
   },
   render: (args) => (
     <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
@@ -103,6 +103,7 @@ export const ColorStates: Story = {
   args: {
     weight: "medium",
     size: "md",
+    children: "Color states using responsive tokens",
   },
   render: (args) => (
     <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
